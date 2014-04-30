@@ -1,0 +1,15 @@
+<div style='margin-left:auto; margin-right: auto;width: 200px; height:200px; background-color: rgba(200, 200, 100, 0.8);'
+     id='variable_div'>
+</div>
+
+<script language='javascript'>
+ $(document).ready(function() {
+   var paper = Raphael("variable_div", 200, 200);
+   var c = paper.rect(30, 30, 80, 80, 8);
+   c.attr({"stroke-width":2});
+   //c.attr({"fill":"rgba(39, 80, 153, 255)"});
+   c.attr({"fill":"90-rgba(30,80,153,1.0)-rgba(30,80,255,1.0)"});
+
+ });
+</script>
+
